@@ -25,7 +25,10 @@ SECRET_KEY = '4^ilode4pkg^o1aenb_ox=974*y*d4h2#b$rg$hgy_!-&91asa'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mjp21.pythonanywhere.com']
+ALLOWED_HOSTS = [
+                '127.0.0.1',
+                'mjp21.pythonanywhere.com'
+                ]
 
 
 # Application definition
